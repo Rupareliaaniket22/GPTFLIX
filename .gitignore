@@ -75,3 +75,7 @@ out/
 
 # 🚀 Storybook (if using Storybook for UI components)
 .storybook/
+
+.firebase.js
+.prettierrc
+.eslint.config.js
