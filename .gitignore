@@ -1,0 +1,81 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.env
+
+# 🚀 Node modules (dependencies)
+node_modules/
+
+# 🚀 Build files (Firebase Hosting will generate these)
+dist/
+build/
+
+# 🚀 Firebase cache & functions dependencies
+.firebase/
+functions/node_modules/
+functions/lib/
+functions/dist/
+
+# 🚀 Logs & debugging files
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+debug.log
+
+# 🚀 Environment files (Protect API keys & secrets)
+.env
+.env.local
+.env.*.local
+
+# 🚀 macOS system files
+.DS_Store
+
+# 🚀 Windows system files
+Thumbs.db
+
+# 🚀 IDE/editor settings (optional)
+.vscode/
+.idea/
+*.iml
+
+# 🚀 Prettier & ESLint cache
+.eslintcache
+.prettierignore
+
+# 🚀 Tailwind CSS generated files (if using JIT mode)
+*.css.map
+tailwind.config.js
+postcss.config.js
+
+# 🚀 Next.js (if using Next.js instead of CRA)
+.next/
+out/
+
+# 🚀 Storybook (if using Storybook for UI components)
+.storybook/
+
+
+.prettierrc
+eslint.config.js
