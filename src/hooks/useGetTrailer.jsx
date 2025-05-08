@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { API_OPTIONS } from '../utils/constants';
+import { API_OPTIONS } from '../utils/Constants';
 
 const useGetTrailer = (movieId, mediaType) => {
   const [videoUrl, setVideoUrl] = useState('');

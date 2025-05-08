@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { API_OPTIONS } from '../utils/constants';
+import { API_OPTIONS } from '../utils/Constants';
 
 const useGetRatings = (type, id) => {
   const [ratings, setRatings] = useState(null);

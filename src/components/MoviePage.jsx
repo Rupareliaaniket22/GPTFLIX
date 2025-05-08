@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { API_OPTIONS, genreMap } from '../utils/constants';
+import { API_OPTIONS, genreMap } from '../utils/Constants';
 import useGetTrailer from '../hooks/useGetTrailer';
 import Header from './Header';
 import ShimmerUI from './ShimmerUI';

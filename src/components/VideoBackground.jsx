@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ReactPlayer from 'react-player';
 import useGetTrailer from '../hooks/useGetTrailer';
-import { API_OPTIONS, IMAGE_BASE_URL } from '../utils/constants';
+import { API_OPTIONS, IMAGE_BASE_URL } from '../utils/Constants';
 
 const VideoBackground = ({
   movieId,

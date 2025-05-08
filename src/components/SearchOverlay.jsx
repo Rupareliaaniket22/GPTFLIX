@@ -10,7 +10,7 @@ import {
   MULTI_SEARCH,
   QWEN_AI_API_OPTIONS,
   TRENDING_ALL,
-} from '../utils/constants';
+} from '../utils/Constants';
 import { set } from 'lodash';
 import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';

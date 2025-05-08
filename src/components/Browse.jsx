@@ -11,7 +11,7 @@ import {
   TOP_RATED_MOVIES,
   TOP_RATED_SHOWS,
   TRENDING_ALL,
-} from '../utils/constants';
+} from '../utils/Constants';
 import {
   setComedyMovies,
   setCrimeTV,

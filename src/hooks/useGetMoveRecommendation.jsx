@@ -1,4 +1,4 @@
-import { QWEN_AI_API_OPTIONS } from '../utils/constants';
+import { QWEN_AI_API_OPTIONS } from '../utils/Constants';
 
 const useGetMovieRecommendation = () => {
   async function getMovieSuggestions(query) {

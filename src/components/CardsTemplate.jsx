@@ -1,5 +1,5 @@
 import React from 'react';
-import { genreMap, IMAGE_BASE_URL } from '../utils/constants';
+import { genreMap, IMAGE_BASE_URL } from '../utils/Constants';
 import { IoPlayCircleOutline } from 'react-icons/io5';
 import { IoIosArrowDropdown } from 'react-icons/io';
 import StarRating from './StarRating';

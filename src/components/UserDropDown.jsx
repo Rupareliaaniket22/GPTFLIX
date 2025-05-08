@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { auth } from '../utils/firebase';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
-import { USER_ICON } from '../utils/constants';
+import { USER_ICON } from '../utils/Constants';
 import { IoSearch } from 'react-icons/io5';
 import SearchOverlay from './SearchOverlay';
 import { clearMovies } from '../utils/moviesSlice';
