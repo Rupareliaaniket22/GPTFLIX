@@ -9,7 +9,7 @@ const CardsTemplate = ({ movie, listName }) => {
   const navigate = useNavigate();
   return (
     <div
-      className="relative min-w-40 min-h-[27vh] md:min-w-52    sm:h-[24vh] hover:sm:min-w-[12vw] hover:sm:min-h-[26vh] transition-transform duration-300 ease-in-out group hover:scale-110 hover:z-50"
+      className="relative min-w-40 min-h-[27vh] md:min-w-52 sm:h-[24vh] hover:sm:min-w-[12vw] hover:sm:min-h-[26vh] transition-transform duration-300 ease-in-out group hover:scale-110 hover:z-50"
       onClick={() =>
         navigate(
           `/browse/${movie.media_type || 'movie'}/${movie.id}/${listName}`
@@ -20,12 +20,12 @@ const CardsTemplate = ({ movie, listName }) => {
       <img
         src={IMAGE_BASE_URL + movie.poster_path || movie.backdrop_path}
         alt="movie_poster"
-        className="rounded-md group-hover:absolute w-full h-full "
+        className="rounded-md group-hover:rounded-lg group-hover:absolute w-full h-full "
       />
 
       {/* Overlay with Buttons and Title */}
       <div
-        className="absolute hidden md:flex left-0 top-10 w-full h-full bg-gradient-to-t from-black/80 via-black/60 to-transparent 
+        className="absolute rounded-lg hidden md:flex left-0 top-10 w-full h-full bg-gradient-to-t from-black/80 via-black/60 to-transparent 
              flex-col opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out p-4 "
       >
         {/* Buttons */}

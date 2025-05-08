@@ -84,7 +84,7 @@ const SecondaryContainer = () => {
 
   return (
     <div className="relative   z-30 flex w-screen flex-col bg-[#141414] h-fit">
-      <div className="md:-mt-[20vh]  overflow-x-hidden  bg-gradient-to-r w-screen bg-opacity-45">
+      <div className="md:-mt-[15vh]  overflow-x-hidden  bg-gradient-to-r w-screen bg-opacity-45">
         <ListTemplate
           list={trendingAll}
           title="Trending Shows and Movies"
