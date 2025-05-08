@@ -65,9 +65,6 @@ Thumbs.db
 .prettierignore
 
 # 🚀 Tailwind CSS generated files (if using JIT mode)
-*.css.map
-tailwind.config.js
-postcss.config.js
 
 # 🚀 Next.js (if using Next.js instead of CRA)
 .next/
