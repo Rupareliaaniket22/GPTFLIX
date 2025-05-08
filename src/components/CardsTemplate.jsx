@@ -9,7 +9,7 @@ const CardsTemplate = ({ movie, listName }) => {
   const navigate = useNavigate();
   return (
     <div
-      className="relative min-w-40 min-h-[27vh] md:min-w-52 sm:h-[24vh] hover:sm:min-w-[12vw] hover:sm:min-h-[26vh] transition-transform duration-300 ease-in-out group hover:scale-110 hover:z-50"
+      className="relative min-w-40 min-h-[27vh] md:min-w-52 sm:h-[24vh] hover:sm:min-w-48 hover:md:min-w-60 hover:sm:min-h-[28vh] transition-transform duration-300 ease-in-out group hover:scale-110 hover:z-50"
       onClick={() =>
         navigate(
           `/browse/${movie.media_type || 'movie'}/${movie.id}/${listName}`
