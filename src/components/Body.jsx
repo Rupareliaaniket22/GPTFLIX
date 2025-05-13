@@ -2,7 +2,7 @@ import React, { Suspense, lazy } from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorBoundary from './ErrorBoundary';
 import Footer from './Footer';
-
+import { useLocation } from 'react-router-dom';
 // Lazy-loaded components
 const Login = lazy(() => import('./Login'));
 const Browse = lazy(() => import('./Browse'));
@@ -76,10 +76,12 @@ const appRouter = createBrowserRouter([
 ]);
 
 const Body = () => {
+  const location = useLocation();
+
   return (
     <div className="bg-[#141414] min-h-screen text-white">
       <RouterProvider router={appRouter} />
-     location.hostname!=="/" &&  <Footer />
+      {location.pathname !== '/' && <Footer />}
     </div>
   );
 };
