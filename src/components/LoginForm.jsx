@@ -104,7 +104,7 @@ const LoginForm = () => {
   return (
     <form
       onSubmit={(e) => e.preventDefault()}
-      className="h-screen sm:h-auto sm:bg-opacity-75 overflow-scroll p-5 
+      className="h-screen sm:h-auto sm:bg-opacity-75 overflow-hidden p-5 
                rounded-md border-1 sm:h-4/12 sm:p-8 bg-black absolute 
                sm:top-[20%] pt-[25%] mx-auto right-0 left-0 sm:w-6/12 
                sm:max-w-md text-white w-screen sm:w-auto  landscape:top-[20%]"
