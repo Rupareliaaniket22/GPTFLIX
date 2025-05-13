@@ -79,7 +79,7 @@ const Body = () => {
   return (
     <div className="bg-[#141414] min-h-screen text-white">
       <RouterProvider router={appRouter} />
-      <Footer />
+     location.hostname!=="/" &&  <Footer />
     </div>
   );
 };
