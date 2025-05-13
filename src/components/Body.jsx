@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorBoundary from './ErrorBoundary';
 import Footer from './Footer';
 // Lazy-loaded components
-import('./Login'));
+import Login from './Login';
 const Browse = lazy(() => import('./Browse'));
 const MoviePage = lazy(() => import('./MoviePage'));
 const NotFound = lazy(() => import('./NotFound'));
